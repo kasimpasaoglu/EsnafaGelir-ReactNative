@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# React Native Esnafagelir App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+<div align="center">
+  <img src="./assets/demo.gif" alt="Demo" height="500">
+</div>
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+This is a **React Native Expo** project that uses **WebView** to render an existing web application built with ASP.NET MVC. The application provides an interface for the Esnafagelir platform, allowing users to interact with the web app seamlessly via a mobile experience.
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🚀 Features
 
-In the output, you'll find options to open the app in a
+- Built with **React Native** and **Expo** for cross-platform development.
+- Integrates **WebView** to render the existing [ASP.NET MVC web application](https://github.com/kasimpasaoglu/EsnafaGelir-ReactNative.git).
+- Mobile-friendly, utilizing safe areas for iOS devices.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠 Installation and Running the App
 
-## Get a fresh project
+### 1. Prerequisites
 
-When you're ready, run:
+Ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+
+### 2. Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/kasimpasaoglu/EsnafaGelir-ReactNative.git
+cd react-native-esnafagelir
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 3. Install Dependencies
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 4. Run the Project
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **On Android:**
 
-## Join the community
+  ```bash
+  npm run android
+  ```
 
-Join our community of developers creating universal apps.
+- **On iOS (Mac only):**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+  ```bash
+  npm run ios
+  ```
+
+---
+
+## 🌐 Web Application
+
+This project integrates the Esnafagelir web application, built with ASP.NET MVC. For more details about the web application:
+
+[Esnafagelir Web Repository](https://github.com/kasimpasaoglu/esnafagelir-mobilweb)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
