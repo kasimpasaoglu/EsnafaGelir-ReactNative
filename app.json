@@ -16,7 +16,25 @@
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.kasimpasaoglu.esnafagelir"
+      "package": "com.kasimpasaoglu.esnafagelir",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "http"
+            },
+            {
+              "scheme": "https"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "usesCleartextTraffic": true
     },
     "web": {
       "bundler": "metro",

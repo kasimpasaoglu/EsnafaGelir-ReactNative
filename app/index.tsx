@@ -41,6 +41,7 @@ export default function Index() {
         style={styles.webview}
         sharedCookiesEnabled={true}
         scalesPageToFit={true}
+        mixedContentMode="always"
       />
     </SafeAreaView>
   );
